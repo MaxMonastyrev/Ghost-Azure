@@ -1,0 +1,380 @@
+@media screen and (max-width: 1250px){
+
+    /* General Pages */
+    .home-template,
+    .archive-template,
+    .tag-template,
+    .author-template{
+        .post-title{
+            font-size: 1.5em;
+            line-height: 1.2em;
+        }
+    }
+
+    /* Home Page */
+
+    .home-template .post:first-child .post-title{
+        font-size: 3.2em;
+        line-height: 1.1em;
+    }
+
+    /* Read Next */
+
+    .read-next .prev-post, 
+    .read-next .next-post{
+        height: 250px;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    /* Header */
+
+    .site-header{
+        padding: 0 5.5%;
+
+        .nav{
+            display: none;
+        }
+    }
+
+    .menu-btn,
+    .pushy{
+        display: block;
+    }
+
+    /* General Pages */
+
+    .home-template,
+    .archive-template,
+    .tag-template,
+    .author-template{
+        .post{
+            width: 49.4%;
+            height: auto;
+            padding-top: 44.2%;
+        }
+
+        .post-title{
+            font-size: 1.8em;
+        }
+    }
+
+    .archive-template,
+    .author-template,
+    .tag-template{
+        .post-info{
+            padding: 0 10%;
+        }
+    }
+
+    /* Home Page */
+
+    .home-template{
+
+        .post:first-child{
+            width: 99.2%;
+
+            .post-info{
+                padding: 0 5%;
+            }
+        }
+
+        .post:nth-child(6){
+            width: 49.4%;
+        }
+
+        .post-info{
+            padding: 0 10%;
+        }
+    }
+
+    /* Post Page */
+
+    .post-template{
+        .featured-image{
+            height: auto;
+            padding-top: 44.2%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 950px){
+    /* Post Page */
+    .post-template{
+        .post-content{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .post-meta{
+            width: 100%;
+            margin-top: 0;
+            padding-top: 30px;
+            border-top: 1px solid $tertiary-color;
+        }
+    }
+
+    .post-template,
+    .page-template{
+        .featured-image{
+            height: 450px;
+            padding-top: 0;
+        }
+    }
+
+    /* Post layouts */
+
+    .one-column,
+    .two-column{
+        .post-content{
+            margin-bottom: 40px;
+       }
+    }
+
+    /* Share */
+
+    .post-share{
+        text-align: center;
+    }
+
+    /* Comments */
+
+    .comments{
+        width: 100%;
+        margin: 10px 0;
+        border-top: 0;
+        
+        &.subscribers-enabled{
+            border-top: 1px solid #E3E4E9;
+        }
+    }
+
+    /* Read Next */
+
+    .read-next .prev-post, 
+    .read-next .next-post{
+        width: 100%;
+    }
+
+    /* Subscribe */
+
+    .subscribe{
+        text-align: center;
+
+        h3{
+            font-size: 2.0em;
+        }
+
+        p{
+            font-size: 1.0em;
+            margin: 15px 0;
+        }
+
+        form{
+            max-width: 550px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .form-group{
+            float: left;
+            width: calc(100% - 140px);
+        }
+
+        button[type='submit']{
+            width: 130px;
+            float: left;
+            margin-top: 5px;
+            margin-left: 10px;
+            line-height: 21px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 750px){
+
+    /* General Pages */
+
+    .home-template,
+    .archive-template,
+    .tag-template,
+    .author-template{
+        .post{
+            width: 99.2%;
+            height: 300px;
+            padding-top: 0;
+        }
+
+    }
+
+    .archive-template,
+    .author-template,
+    .tag-template{
+        .post-info{
+            padding: 0 5%;
+        }
+    }
+
+    /* Home Page */
+
+    .home-template{
+        .post:first-child,
+        .post:nth-child(6){
+            width: 99.2%;
+            height: 300px;
+        }
+
+        .post:first-child .post-title{
+            font-size: 1.8em;
+            line-height: 1.2em;
+        }
+
+        .post-info{
+            padding: 0 5%;
+        }
+    }
+
+    /* Post layouts */
+
+    .two-column .post-content{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    /* Post Page */
+
+    .post-template,
+    .page-template{
+        .featured-image{
+            height: 400px;
+        }
+
+        .post-title{
+            font-size: 2.5em;
+        }
+    }
+
+    /* Read Next */
+
+    .read-next{
+        .post-title,
+        .single-story .post-title{
+            font-size: 1.5em;
+        }
+    }
+
+    /* Post layouts */
+
+    .one-column,
+    .two-column{
+        .post-share{
+            .facebook-share, 
+            .twitter-share, 
+            .google-plus-share, 
+            .facebook-share, 
+            .twitter-share, 
+            .google-plus-share{
+                float: left;
+                max-width: none;
+            }
+        }
+    }
+
+    /* Footer */
+
+    .site-footer{
+        text-align: center;
+    }
+
+    .site-info{
+        width: 100%;
+    }
+
+    .social{
+        float: none;
+    }
+
+    /* Subscribe */
+
+    .subscribe-content h1{
+        font-size: 2.5em;
+    }
+
+    .subscribe-content .form-group{
+        width: 100%;
+    }
+
+    .subscribe-content button[type='submit']{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .subscribe-content .main-error{
+        margin-top: 10px;
+    }
+
+    .subscribe h3,
+    .one-column .subscribe h3, 
+    .two-column .subscribe h3{
+        font-size: 1.7em;
+    }
+
+    .subscribe .form-group,
+    .one-column .subscribe .form-group, 
+    .two-column .subscribe .form-group{
+        width: 100%;
+    }
+
+    .subscribe button[type='submit'],
+    .one-column .subscribe button[type='submit'], 
+    .two-column .subscribe button[type='submit']{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Author Page */
+    .author-profile .author-location,
+    .author-profile .author-link, 
+    .author-profile .author-facebook, 
+    .author-profile .author-twitter{
+        display: block;
+        margin-left: 0;
+        margin-bottom: 2px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .post-template,
+    .page-template{
+
+        .post-title{
+            font-size: 2.0em;
+        }
+    }
+
+    /* Read Next */
+
+    .read-next{
+        .post-title{
+            font-size: 1.3em;
+        }
+    }
+
+    /* Subscribe */
+    
+    .subscribe-content h1 {
+        font-size: 2.0em;
+    }
+
+}
